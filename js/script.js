@@ -1,6 +1,9 @@
 (function($){
   // Search
-  alert('window.screen.width:' + window.screen.width + '----window.screen.height:' + window.screen.height + ',dpr:' + window.devicePixelRatio);
+  setTimeout(() => {
+    alert('window.screen.width:' + window.screen.width + '----window.screen.height:' + window.screen.height + ',dpr:' + window.devicePixelRatio);  
+  }, 5000);
+  
   console.log('window.screen.width:' + window.screen.width + '----window.screen.height:' + window.screen.height + ',dpr:' + window.devicePixelRatio);
   
   var $searchWrap = $('#search-form-wrap'),
